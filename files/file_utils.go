@@ -1,7 +1,7 @@
 package files
 
 import (
-	"go-commons/utils"
+	"github.com/tvtu2105/go-commons/utils"
 	"os"
 )
 
@@ -13,7 +13,7 @@ func CheckFileExist(path string) bool {
 	return checkExist(path)
 }
 
-func checkExist(path string)  bool{
+func checkExist(path string) bool {
 	if utils.IsEmpty(path) {
 		return false
 	}
